@@ -58,4 +58,7 @@ typings/
 .env
 
 
+# Specifics for project
 yarn\.lock
+src/css
+src/bundle_phone.js

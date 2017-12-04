@@ -1,0 +1,43 @@
+{
+  "name": "DemoAppForDevtools",
+  "version": "1.0.0",
+  "description": "Count down of DevFest 2016",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start_server & npm run build_dev",
+    "start_server": "node server.js",
+    "build_dev": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GDG-Nantes/CountDownDevFest2016.git"
+  },
+  "keywords": [
+    "countdown",
+    "devfest"
+  ],
+  "author": "jefBinomed",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GDG-Nantes/CountDownDevFest2016/issues"
+  },
+  "homepage": "https://github.com/GDG-Nantes/CountDownDevFest2016#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.14.0",
+    "browserify": "^14.1.0",
+    "gulp": "^3.9.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-util": "^3.0.7",
+    "run-sequence": "^1.2.2",
+    "vinyl-source-stream": "^1.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
