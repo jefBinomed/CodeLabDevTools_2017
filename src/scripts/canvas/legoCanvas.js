@@ -252,17 +252,17 @@ export class LegoGridCanvas {
                 this.canvas.add(groupTmp);
             }
         }
-        /*this.canvas.renderAll();
+        this.canvas.renderAll();
         this.canvas.renderOnAddRemove = true;
         // We transform the canvas to a base64 image in order to save performances.
         let url = this.canvas.toDataURL();
         this.canvas.clear();
-        this.canvas.setBackgroundImage(url,this.canvas.renderAll.bind(this.canvas), {
+        this.canvas.setBackgroundImage(url, this.canvas.renderAll.bind(this.canvas), {
             originX: 'left',
             originY: 'top',
             width: this.canvas.width,
-          height: this.canvas.height,
-        });   */
+            height: this.canvas.height,
+        });
     }
 
     /**

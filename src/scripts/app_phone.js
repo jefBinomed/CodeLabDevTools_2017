@@ -198,12 +198,14 @@ import {
 
     window.addEventListener('load', pageLoad);
 
-    /* SERVICE_WORKER_REPLACE
+    /* SERVICE_WORKER_REPLACE */
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./service-worker-phone.js', {scope : location.pathname}).then(function(reg) {
-            console.log('Service Worker Register for scope : %s',reg.scope);
+        navigator.serviceWorker.register('./service-worker-phone.js', {
+            scope: location.pathname
+        }).then(function (reg) {
+            console.log('Service Worker Register for scope : %s', reg.scope);
         });
     }
-     SERVICE_WORKER_REPLACE */
+    /*SERVICE_WORKER_REPLACE */
 
 })();
